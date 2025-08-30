@@ -11,6 +11,13 @@ Why not give it a try and play against the computer to see who wins? Good Luck!
 --> Option to play multiple rounds
 --> Exit anytime 
 
-#How to run?
-Click here to view the python code:
+#Click here to view the python code:
 https://github.com/lizna-06/Rock-Paper-Scissor/blob/main/rock_paper_scissor.py
+
+#How to play:
+1. Click the green "code" button in this page
+2. Click "Download ZIP"
+3. Unzip the file on your computer
+4. Make sure you have python installed
+5. Run the code in python
+6. Play the game in your terminal! 
