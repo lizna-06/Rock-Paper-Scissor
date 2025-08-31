@@ -4,11 +4,12 @@ c1=0
 c2=0
 def game():
     global c1,c2 #tells the program to use the given global variables
+    dict1={"scissor":"rock","rock":"paper","paper":"scissor"}
     if userchoice==compchoice:
         c1+=1
         c2+=1
         print("It's a tie !")
-    elif (userchoice=="rock" and compchoice=="paper")or(userchoice=="paper" and compchoice=="scissor")or(userchoice=="scissor" and compchoice=="rock"):
+    elif dict1[userchoice]==compchoice:
         c2+=1
         print("Uh-Oh, You lose!")
         
@@ -16,8 +17,6 @@ def game():
         c1+=1
         print("Yay,you win!")
        
-
-  
 options=["rock","paper","scissor"]
 print("WELCOME TO ROCK PAPER SCISSOR GAME!")
 print("type 'exit' to exit the game") 
